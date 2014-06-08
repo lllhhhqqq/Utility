@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Utility_Test", "Utility_Test\Utility_Test.vcxproj", "{C88BCC79-46AF-47E6-ADAF-7C5262E32879}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Shell_exec", "Shell_exec\Shell_exec.vcxproj", "{6A24F065-4CB6-4CED-B37B-730627A752A8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Main_App", "Main_App\Main_App.vcxproj", "{BABCCD6A-8C81-4E55-81DE-83CD560FA7D4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Base", "Base\Base.vcxproj", "{BF960D87-AD41-48FC-AA26-B2DEC96B8C9A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tqueue", "tqueue\tqueue.vcxproj", "{950DB1DC-11CF-4B09-BA08-004EC7CF96C9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "A_TempFolder", "A_TempFolder", "{01A9C5E2-6B3E-4B2F-BD99-FEB38CDFC854}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "temp_proj", "temp_proj\temp_proj.vcxproj", "{8AD7D725-3780-40F0-A758-3560440F3512}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C88BCC79-46AF-47E6-ADAF-7C5262E32879}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C88BCC79-46AF-47E6-ADAF-7C5262E32879}.Debug|Win32.Build.0 = Debug|Win32
+		{C88BCC79-46AF-47E6-ADAF-7C5262E32879}.Release|Win32.ActiveCfg = Release|Win32
+		{C88BCC79-46AF-47E6-ADAF-7C5262E32879}.Release|Win32.Build.0 = Release|Win32
+		{6A24F065-4CB6-4CED-B37B-730627A752A8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6A24F065-4CB6-4CED-B37B-730627A752A8}.Debug|Win32.Build.0 = Debug|Win32
+		{6A24F065-4CB6-4CED-B37B-730627A752A8}.Release|Win32.ActiveCfg = Release|Win32
+		{6A24F065-4CB6-4CED-B37B-730627A752A8}.Release|Win32.Build.0 = Release|Win32
+		{BABCCD6A-8C81-4E55-81DE-83CD560FA7D4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BABCCD6A-8C81-4E55-81DE-83CD560FA7D4}.Debug|Win32.Build.0 = Debug|Win32
+		{BABCCD6A-8C81-4E55-81DE-83CD560FA7D4}.Release|Win32.ActiveCfg = Release|Win32
+		{BABCCD6A-8C81-4E55-81DE-83CD560FA7D4}.Release|Win32.Build.0 = Release|Win32
+		{BF960D87-AD41-48FC-AA26-B2DEC96B8C9A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BF960D87-AD41-48FC-AA26-B2DEC96B8C9A}.Debug|Win32.Build.0 = Debug|Win32
+		{BF960D87-AD41-48FC-AA26-B2DEC96B8C9A}.Release|Win32.ActiveCfg = Release|Win32
+		{BF960D87-AD41-48FC-AA26-B2DEC96B8C9A}.Release|Win32.Build.0 = Release|Win32
+		{950DB1DC-11CF-4B09-BA08-004EC7CF96C9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{950DB1DC-11CF-4B09-BA08-004EC7CF96C9}.Debug|Win32.Build.0 = Debug|Win32
+		{950DB1DC-11CF-4B09-BA08-004EC7CF96C9}.Release|Win32.ActiveCfg = Release|Win32
+		{950DB1DC-11CF-4B09-BA08-004EC7CF96C9}.Release|Win32.Build.0 = Release|Win32
+		{8AD7D725-3780-40F0-A758-3560440F3512}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8AD7D725-3780-40F0-A758-3560440F3512}.Debug|Win32.Build.0 = Debug|Win32
+		{8AD7D725-3780-40F0-A758-3560440F3512}.Release|Win32.ActiveCfg = Release|Win32
+		{8AD7D725-3780-40F0-A758-3560440F3512}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8AD7D725-3780-40F0-A758-3560440F3512} = {01A9C5E2-6B3E-4B2F-BD99-FEB38CDFC854}
+	EndGlobalSection
+EndGlobal

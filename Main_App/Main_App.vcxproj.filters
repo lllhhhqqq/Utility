@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="define.h" />
+    <ClInclude Include="export.h" />
+    <ClInclude Include="Base_App.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="main_app.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="Main_Wnd.h">
+      <Filter>Wind</Filter>
+    </ClInclude>
+    <ClInclude Include="WndInterFace.h">
+      <Filter>Wind</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrame.h">
+      <Filter>AppFrame</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="App">
+      <UniqueIdentifier>{a7a5803c-25a3-4d50-978d-82e08ed30f64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Wind">
+      <UniqueIdentifier>{6cd1f4fd-7e5e-42ef-ad83-8c685fcd100d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AppFrame">
+      <UniqueIdentifier>{18e8304f-43d0-4945-b725-a159b2d0a0a7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="app_main.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="main_app.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="Main_Wnd.cpp">
+      <Filter>Wind</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

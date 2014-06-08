@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Memory">
+      <UniqueIdentifier>{eb784ebf-4dc9-49aa-8634-98e5b3126a5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="atomic">
+      <UniqueIdentifier>{82bb2513-253b-4e02-bdcf-ea8329fb9146}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="serial">
+      <UniqueIdentifier>{3ad8ee97-1594-4b12-95e1-f142a399a09e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Worker">
+      <UniqueIdentifier>{4c0099f1-8d5c-4c24-907b-39c3eb2b2612}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sequence">
+      <UniqueIdentifier>{5040a2d6-30b5-4d07-8896-23681c9c78d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="table">
+      <UniqueIdentifier>{3e3c8aab-d805-44bf-bfc4-4dd8c6b4663b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sharememory.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="ShareMemoryImpl.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32ThreadImpl.cpp">
+      <Filter>Worker</Filter>
+    </ClCompile>
+    <ClCompile Include="Worker.cpp">
+      <Filter>Worker</Filter>
+    </ClCompile>
+    <ClCompile Include="worker_pool.cpp">
+      <Filter>Worker</Filter>
+    </ClCompile>
+    <ClCompile Include="lock_impl.cpp">
+      <Filter>Sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="table\table.cpp">
+      <Filter>table</Filter>
+    </ClCompile>
+    <ClCompile Include="table\table_v3.cpp">
+      <Filter>table</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="alloc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sharememory.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="ShareMemoryImpl.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="atomicptr.h">
+      <Filter>atomic</Filter>
+    </ClInclude>
+    <ClInclude Include="atomicCount.h">
+      <Filter>atomic</Filter>
+    </ClInclude>
+    <ClInclude Include="tqueue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LoopQue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ShareMemoryWrap.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Param_trait.hpp">
+      <Filter>serial</Filter>
+    </ClInclude>
+    <ClInclude Include="Type_Cast.hpp">
+      <Filter>serial</Filter>
+    </ClInclude>
+    <ClInclude Include="serial_macro.hpp">
+      <Filter>serial</Filter>
+    </ClInclude>
+    <ClInclude Include="worker.h">
+      <Filter>Worker</Filter>
+    </ClInclude>
+    <ClInclude Include="worker_inner.h">
+      <Filter>Worker</Filter>
+    </ClInclude>
+    <ClInclude Include="worker_pool.h">
+      <Filter>Worker</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkerImpl.h">
+      <Filter>Worker</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32ThreadImpl.h">
+      <Filter>Worker</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadDef.h">
+      <Filter>Worker</Filter>
+    </ClInclude>
+    <ClInclude Include="param.h">
+      <Filter>Worker</Filter>
+    </ClInclude>
+    <ClInclude Include="tp.h">
+      <Filter>资源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lock.h">
+      <Filter>Sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="lock_impl.h">
+      <Filter>Sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="event.h">
+      <Filter>Sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="table\table_v3.h">
+      <Filter>table</Filter>
+    </ClInclude>
+    <ClInclude Include="table\table.h">
+      <Filter>table</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="todo.txt">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+</Project>

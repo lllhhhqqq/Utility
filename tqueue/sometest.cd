@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="table_v3::table_impl">
+    <Position X="9.25" Y="5.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EAAAAABAEAAAAAABAAQAQAAAAAASIAAAACAQAAARIAk=</HashCode>
+      <FileName>table\table_v3.cpp</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="schema_p" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="table_v3::table_t">
+    <Position X="12.75" Y="1.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>UCEIBAhhGARYBqoEQIBoGosTEYOMpU9AhK1gU6CGgEE=</HashCode>
+      <FileName>table\table_v3.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="impl" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="table_v3::schema_t">
+    <Position X="6.5" Y="5.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AEEAAAMAAAAAAAAAQAAAAIAABAAEBAIAKAAAIIAAIAA=</HashCode>
+      <FileName>table\table_v3.cpp</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="fileds_" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="std::vector&lt;_Ty, _Alloc&gt;">
+    <Position X="1" Y="5" Width="4.25" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Typedef Name="std::vector&lt;_Ty, _Alloc&gt;::reference" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>d:\program files (x86)\microsoft visual studio 12.0\vc\include\vector</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::vector&lt;_Ty, _Alloc&gt;::const_iterator" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>d:\program files (x86)\microsoft visual studio 12.0\vc\include\vector</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::vector&lt;_Ty, _Alloc&gt;::difference_type" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>d:\program files (x86)\microsoft visual studio 12.0\vc\include\vector</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::vector&lt;_Ty, _Alloc&gt;::_Mybase" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>d:\program files (x86)\microsoft visual studio 12.0\vc\include\vector</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::vector&lt;_Ty, _Alloc&gt;::_Myt" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>d:\program files (x86)\microsoft visual studio 12.0\vc\include\vector</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::vector&lt;_Ty, _Alloc&gt;::allocator_type" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>d:\program files (x86)\microsoft visual studio 12.0\vc\include\vector</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::vector&lt;_Ty, _Alloc&gt;::pointer" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>d:\program files (x86)\microsoft visual studio 12.0\vc\include\vector</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::vector&lt;_Ty, _Alloc&gt;::const_pointer" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>d:\program files (x86)\microsoft visual studio 12.0\vc\include\vector</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::vector&lt;_Ty, _Alloc&gt;::size_type" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>d:\program files (x86)\microsoft visual studio 12.0\vc\include\vector</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::vector&lt;_Ty, _Alloc&gt;::const_reference" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>d:\program files (x86)\microsoft visual studio 12.0\vc\include\vector</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::vector&lt;_Ty, _Alloc&gt;::reverse_iterator" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>d:\program files (x86)\microsoft visual studio 12.0\vc\include\vector</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::vector&lt;_Ty, _Alloc&gt;::_Alty" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>d:\program files (x86)\microsoft visual studio 12.0\vc\include\vector</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::vector&lt;_Ty, _Alloc&gt;::iterator" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>d:\program files (x86)\microsoft visual studio 12.0\vc\include\vector</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::vector&lt;_Ty, _Alloc&gt;::value_type" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>d:\program files (x86)\microsoft visual studio 12.0\vc\include\vector</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="std::vector&lt;_Ty, _Alloc&gt;::const_reverse_iterator" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>d:\program files (x86)\microsoft visual studio 12.0\vc\include\vector</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>IUoEEIEqCLBMUEBAAKMIAgASAgUESAIAxQMwgwAEQgI=</HashCode>
+      <FileName>d:\program files (x86)\microsoft visual studio 12.0\vc\include\vector</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="share_memory::ShareMemoryImpl">
+    <Position X="2.75" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAACAAIAAAAhAAAAAEAAAQAAAAgAgAAI=</HashCode>
+      <FileName>ShareMemoryImpl.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TQueue&lt;T, Alloc, N&gt;">
+    <Position X="5.5" Y="17.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="TQueue&lt;T, Alloc, N&gt;::HeadInfo&lt;T&gt;">
+        <TypeIdentifier>
+          <NewMemberFileName>tqueue.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Typedef Name="TQueue&lt;T, Alloc, N&gt;::Head" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>tqueue.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Struct Name="TQueue&lt;T, Alloc, N&gt;::chunk&lt;T, N&gt;">
+        <TypeIdentifier>
+          <NewMemberFileName>tqueue.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Typedef Name="TQueue&lt;T, Alloc, N&gt;::chunk_st" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>tqueue.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AIAgAKAAAAAAgAAACABIAQAkRAAAIEIAEAACIgEAAAA=</HashCode>
+      <FileName>tqueue.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>
