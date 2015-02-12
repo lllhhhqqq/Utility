@@ -82,7 +82,7 @@
     <ClInclude Include="include\base\tuple.h" />
     <ClInclude Include="include\Container\Container.h" />
     <ClInclude Include="include\design_pattern\Singleton.h" />
-    <ClInclude Include="include\Lock\Lock.h" />
+    <ClInclude Include="include\Sync\Lock\Lock.h" />
     <ClInclude Include="include\log\category.h" />
     <ClInclude Include="include\log\log.h" />
     <ClInclude Include="include\other\disallow_copy_assign.h" />

@@ -10,7 +10,7 @@
 #include <string>
 
 namespace base {
-
+	
     class Category;
     class LogAgent;
     class LogFormat;

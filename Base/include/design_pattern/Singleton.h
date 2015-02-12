@@ -16,7 +16,7 @@ class Singleton
 public:
     static T* Ins()
     {
-        //static Singleton<T, Lock> ins;
+		//memory barrier here , with multi thread init problem
         static T ins;
         return &ins;
     }

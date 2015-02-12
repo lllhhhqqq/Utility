@@ -21,9 +21,6 @@
     <ClInclude Include="include\design_pattern\Singleton.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="include\Lock\Lock.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="include\log\log.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -43,6 +40,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="include\base\tuple.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Sync\Lock\Lock.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
